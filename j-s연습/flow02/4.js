@@ -15,7 +15,7 @@ let arr1 = 0; //짝수
 let arr2 = 0; //홀수
 
 function solution(arr) {
-  for (i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 == 0) {
       arr1++;
     } else {
