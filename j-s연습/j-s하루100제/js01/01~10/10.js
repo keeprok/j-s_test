@@ -12,3 +12,16 @@
 //   *****
 //  *******
 // *********
+let tree = 0;
+let length = 5;
+for (let i = 1; i <= length; i++) {
+  let star = "";
+  for (let j = 1; j <= length - i; j++) {
+    star += " ";
+  }
+  for (let k = 1; k <= i * 2 - 1; k++) {
+    star += "*";
+  }
+  tree = star;
+  console.log(tree);
+}
